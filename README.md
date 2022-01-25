@@ -10,3 +10,9 @@
 ## Heroku link
 
 https://serene-ridge-76832.herokuapp.com/
+
+## Contributors
+
+ - Allan
+ - Jakob
+ - Joshua Johansen
