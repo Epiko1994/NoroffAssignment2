@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from "vue-router"
-import Questions from './views/Questions.vue'
+import Login from './views/Login.vue'
 
 const routes = [
     {
-        path: '/api',
-        component: Questions,
+        path: '/',
+        component: Login,
     }
 ]
 
