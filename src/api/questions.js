@@ -1,8 +1,8 @@
-import { BASE_URL } from '.';
+import { BASE_QUESTION_URL } from '.';
 
 export async function apiFetchQuestions() {
     try {
-        const response = await fetch(`${BASE_URL}.php?amount=10`);
+        const response = await fetch(`${BASE_QUESTION_URL}.php?amount=10`);
 
         if (!response.ok) {
             throw new Error('could not find questions');
