@@ -8,6 +8,10 @@ const routes = [
         path: '/',
         component: StartPage,
     },
+    /*{
+        path: '/questions',
+        component: Questions
+    },*/    
     {
         path:'/register',
         component: Register
