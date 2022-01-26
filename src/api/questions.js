@@ -17,7 +17,7 @@ export async function apiFetchQuestions() {
         if (!success) {
             throw new Error(error);
         }
-
+        console.log(data)
         return [null, data];
     } catch (error) {
         return [error.message, []];
