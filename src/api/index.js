@@ -1,2 +1,2 @@
-export const BASE_URL = 'https://atc-noroff-api.herokuapp.com/trivia'
-export const API_KEY = 'exRr+FvU4kSXTawNqaeO1g=='
+export const BASE_QUESTION_URL = 'https://opentdb.com/api';
+export const BASE_USER_URL = 'https://ajj-noroff-assignment-2.herokuapp.com';

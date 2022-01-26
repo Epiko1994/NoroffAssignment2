@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from "vue-router"
-import Register from "./views/Register.vue"
+import StartPage from './views/StartPage.vue'
 
 const routes = [
     {
-        path: "/",
-        component: Register
+        path: '/',
+        component: StartPage,
     }
 ]
 
