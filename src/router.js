@@ -9,6 +9,10 @@ const routes = [
         component: StartPage,
     },
     {
+        path: '/questions',
+        component: Questions
+    },
+    {
         path:'/register',
         component: Register
     },
