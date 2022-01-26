@@ -13,6 +13,6 @@ https://serene-ridge-76832.herokuapp.com/
 
 ## Contributors
 
- - Allan
- - Jakob
+ - Allan Carlsen
+ - Jakob Henriksen
  - Joshua Johansen
