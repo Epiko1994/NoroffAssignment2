@@ -3,7 +3,7 @@ import { BASE_USER_URL } from '.';
 const apiKey =
     'Wl5NCSOy6QDMhp73UHlpqczdjVrSCOi22e1UFy8z4U6gYPq4xgpWh632uL29wQj2';
 
-import { BASE_URL } from ".";
+//import { BASE_URL } from ".";
 
 export async function apiGetUser(username) {
     try {
