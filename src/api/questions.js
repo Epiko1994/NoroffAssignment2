@@ -8,29 +8,21 @@ export async function apiFetchQuestions() {
             throw new Error('could not find questions');
         }
 
-        const json = await response.json()
-        console.log(json.results)
-        return json.results
+        // const json = await response.json()
+        // console.log(json.results)
+        // return json.results
 
+        const {
+            response_code,
+            results,
+            error = 'Could not fetch questions',
+        } = await response.json();
 
-        if (!success) {
+        if (response_code !== 0) {
             throw new Error(error);
         }
-        console.log(data)
-        return [null, data];
 
-        // const {
-        //     success,
-        //     data,
-        //     error = 'Could not fetch questions',
-        // } = await response.json();
-
-        // if (!success) {
-        //     throw new Error(error);
-        // }
-
-        //return [null, data];
-
+        return [null, results];
     } catch (error) {
         return [error.message, []];
     }
