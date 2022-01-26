@@ -18,7 +18,6 @@ export async function apiFetchQuestions() {
             error = 'Could not fetch questions',
         } = await response.json();
 
-
         if (response_code !== 0) {
             throw new Error(error);
         }
