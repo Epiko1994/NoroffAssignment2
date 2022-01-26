@@ -21,7 +21,6 @@ export async function apiFetchQuestions() {
         if (response_code !== 0) {
             throw new Error(error);
         }
-
         return [null, results];
     } catch (error) {
         return [error.message, []];
